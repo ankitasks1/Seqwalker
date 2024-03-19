@@ -1,5 +1,37 @@
 # <u> Seqwalker </u>
+### How the package was compiled
 
+Step 1. Using RStudio -> File → New Project → New Directory → This will create required files mainly
+R, DESCRIPTION, .Rproj.user and .Rbuildignore, .Rproj within a folder eg. Seqwalker_Git/
+
+Step 2. Prepare your analysis function and put in R/ within Seqwalker_Git/
+
+Step 3. Each function needs a format as per roxygen format
+
+#' Title
+#'
+#' @param x 
+#' @param na.rm 
+#'
+#' @return
+#' @examples
+#' @export
+
+I prepared this file manually.
+
+Step 4. Go to RStudio and run these commands 
+
+setwd("/Users/ankitverma/Documents/softwares/seqwalker/Seqwalker_Git")
+getwd()
+library(roxygen2)
+roxygenise()
+
+Step 5. Transfer files to Github in new repository eg. Seqwalker
+
+Step 6. Test the package
+
+
+Note the package folder is uploaded to Carmbridge_Work_Codes and can be downloded and rerun with all these Step 1-6.
 
 ### Installation
 <pre>
