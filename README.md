@@ -35,7 +35,7 @@ Step 5. Transfer files to Github in new repository eg. Seqwalker
 Step 6. Test the package
 
 
-Note the package folder is uploaded to Carmbridge_Work_Codes and can be downloded and rerun with all these Step 1-6.
+Note the package folder is uploaded to Cambridge_Work_Codes in Github and can be downloded and rerun with all these Step 1-6.
 
 ### Installation
 <pre>
