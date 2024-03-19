@@ -8,6 +8,7 @@ Step 2. Prepare your analysis function and put in R/ within Seqwalker_Git/
 
 Step 3. Each function needs a format as per roxygen format
 
+<pre>
 #' Title
 #'
 #' @param x 
@@ -16,6 +17,7 @@ Step 3. Each function needs a format as per roxygen format
 #' @return
 #' @examples
 #' @export
+</pre>
 
 I prepared this file manually.
 
