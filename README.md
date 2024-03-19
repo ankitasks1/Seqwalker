@@ -23,10 +23,12 @@ I prepared this file manually.
 
 Step 4. Go to RStudio and run these commands 
 
+<pre>
 setwd("/Users/ankitverma/Documents/softwares/seqwalker/Seqwalker_Git")
 getwd()
 library(roxygen2)
 roxygenise()
+</pre>
 
 Step 5. Transfer files to Github in new repository eg. Seqwalker
 
